@@ -2,50 +2,63 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link href="css/style.css" rel="stylesheet">
     <title>Petshop</title>
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+    <!---HEADER-->
     <header>
-        <p>Grandes ofertas en Comederos</p>
+        <!--Superior-->
+        <div class="sup">
+            <p>Grandes ofertas en Comederos</p>
+            <div class="supRight">
+                <span>Español</span>
+                <span>ARG$</span>
+            </div>
+        </div>
+        <!--Logo/Menu-->
+       <div class="inf">
+        <div class="logo"><img src="img/Logo.png" alt="logo"></div>
         <nav>
-        <ul>
-            <li>Español</li>
-            <li>ARG$</li>
-        </ul>
-        </nav>
-        <img src="img/Logo.png" alt="logo">
-        <nav>
-            <ul>
+            <ul class="lista">
                 <li><img src="img/Categorias.png" alt="Categorias"></li>
                 <li><img src="img/Pets.png" alt="Pets"></li>
                 <li><img src="img/SobreNosotros.png" alt="Nosotros"></li>
                 <li><img src="img/Contactanos.png" alt="Contactanos"></li>
             </ul>
         </nav>
+        </div>
     </header>
     <main>
-        <section>
-            <p><img src="img/background.png" alt="background"></p>
-            <p>¡Es un placer tenerte aquí!</p>
-            <p>¡Comederos en descuento!</p>
-            <p>Comederos</p>
+        <section >
+            <div class="bgSection">
+                <p id="boxSection">¡Es un placer tenerte aquí!</p>
+                <p id="subTitleSection">¡Comederos en descuento!</p>
+                <p id="boxLinkSection">COMEDEROS</p>
+            </div> 
         </section>
         <section>
-            <p><img src="img/pawprint.png" alt="Patitas"></p>
-            <h2>Productos destacados</h2>
-            <p>Comederos  -  Accesorios  -  Comida</p>
-            <p><img src="img/churrasquito.png" alt=""></p>
+            <article>
+                <p><img src="img/pawprint.png" alt="Patitas"></p>
+                <h2>Productos destacados</h2>
+                <p>Comederos  -  Accesorios  -  Comida</p>
+            </article>
+            <article>
+                <p><img src="img/churrasquito.png" alt=""></p>
             <p>Juguete Churrasquito</p>
             <p>$150</p>
-            <br>
-            <p><img src="img/comedero.png" alt=""></p>
-            <p>Comedero para perro</p>
-            <p>$250</p>
-            <br>
-            <p><img src="img/Huesito.png" alt=""></p>
-            <p>Juguete Huesito</p>
-            <p>$650</p>
+            </article>
+            <article>
+                <p><img src="img/comedero.png" alt=""></p>
+                <p>Comedero para perro</p>
+                <p>$250</p>
+            </article>
+            <article>
+                <p><img src="img/Huesito.png" alt=""></p>
+                <p>Juguete Huesito</p>
+                <p>$650</p>
+            </article>
+            
         </section>
     </main>
     <footer>
@@ -77,3 +90,5 @@
     </footer>
 </body>
 </html>
+
+
